@@ -5,6 +5,16 @@ nano docker-compose.yaml
 docker-compose up -d
 docker-compose down
 ---------------------------------------------------------------
+(or) this method to use.......
+sudo usermod -aG docker $(whoami)
+newgrp docker
+docker run hello-world
+sudo systemctl status docker
+sudo systemctl start docker
+docker-compose --version
+docker-compose logs
+sudo docker-compose up -d
+-------------------------------------------------------------------
 version: '3'
 
 services:
