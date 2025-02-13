@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt install docker.io
 sudo apt install docker-compose
-vi docker-compose.yaml
+nano docker-compose.yaml
 docker-compose up -d
 docker-compose down
 ---------------------------------------------------------------
