@@ -1,9 +1,10 @@
 sudo apt update
 sudo apt install docker.io
 sudo apt install docker-compose
----------------------------------------------------------------
 vi docker-compose.yaml
-
+docker-compose up -d
+docker-compose down
+---------------------------------------------------------------
 version: '3'
 
 services:
